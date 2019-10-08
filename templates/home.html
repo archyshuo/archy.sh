@@ -1,0 +1,20 @@
+<div>
+  <h2 class="thickRaleway menu hide-if-smaller-than-mobile-device-large">
+    <a href="/"class="menu-item $if(isBlog)$menu-item-selected$endif$">on life and stuff</a>
+    <a href="/music-for-work.html" class="menu-item $if(isMusicForWork)$menu-item-selected$endif$">Music&nbsp;for&nbsp;Work</a>
+</h2>
+<h3 class="thickRaleway menu show-if-smaller-than-mobile-device-large-and-hide-if-smaller-than-mobile-device-regular">
+    <a href="/"class="menu-item $if(isBlog)$menu-item-selected$endif$">on life and stuff</a>
+    <a href="/music-for-work.html" class="menu-item $if(isMusicForWork)$menu-item-selected$endif$">Music&nbsp;for&nbsp;Work</a>
+    <!-- <a href="/artwork-info.html"class="edge-case-to-be-hidden menu-item $if(isArtworkInfo)$menu-item-selected$endif$">Artwork&nbsp;Info</a> -->
+</h3>
+<h3 class="thickRaleway menu show-if-smaller-than-mobile-device-regular">
+        <a href="/"class="menu-item $if(isBlog)$menu-item-selected$endif$">on life & stuff</a>
+  
+</h3>
+</div>
+$body$
+$if(isMusicForWork)$
+<script src="/js/music-for-work.js">
+</script>
+$endif$
