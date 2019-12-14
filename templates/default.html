@@ -22,13 +22,14 @@
                 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
                 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="/css/bootstrap.4.0.0-beta3.min.css" />
-<link href="/css/ionicons.2.0.1.min.css" rel="stylesheet">
+<!-- <link href="/css/ionicons.2.0.1.min.css" rel="stylesheet"> -->
+<link href="/css/font-awesome.min.css" rel="stylesheet">
 <link href="/css/main.css?v=420" rel="stylesheet">
 <link href="/css/fonts.css" rel="stylesheet">
 $if(containsCode)$
 <link href="/css/highlight.css" rel="stylesheet">
 $endif$
-<meta property="og:url" content="http://0a.io/$url$" />
+<meta property="og:url" content="http://archy.sh/$url$" />
 $if(coverPainting)$
 <meta property="og:type" content="article" />
 $endif$
@@ -38,12 +39,12 @@ $else$
 <meta property="og:title" content="a blog about mathematics, life and stuff" />
 $endif$
 $if(imgEscURL)$
-<meta property="og:image" content="http://0a.io/img/covers/$imgEscURL$.jpg" />
+<meta property="og:image" content="http://archy.sh/img/covers/$imgEscURL$.jpg" />
 $else$
-<meta property="og:image" content="http://0a.io/img/backgrounds/ian-espinosa-311604-unsplash.jpg" />
+<meta property="og:image" content="http://archy.sh/img/backgrounds/ian-espinosa-311604-unsplash.jpg" />
 $endif$
 $if(isBlog)$
-<meta name="description" content="0a.io is a blog.">
+<meta name="description" content="archy.sh is a blog.">
 $else$
 $if(isPReview)$
 <meta name="description" content="Pretentous Review: a commentary series">
@@ -56,9 +57,9 @@ $endif$
 $endif$
 
 
-<title> $if(isBlog)$$else$$if(Title)$$Title$$else$$title$$endif$ - $endif$0a.io -</title>
+<title> $if(isBlog)$$else$$if(Title)$$Title$$else$$title$$endif$ - $endif$吖奇说 ARCHY SHUō -</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?class=UA-112409544-1"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?class=UA-112409544-1"></script> -->
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -96,33 +97,38 @@ $endif$
     <div class="cover-image-text">
       <h1 class="zeroDegreeLogo centerFlex">
         <div>
-            <a href="/">&nbsp;&nbsp;</a>
+            <a href="/"><img id="logo" src="/img/archyshuo.png"></a>
         </div>
         <div class="description show-if-smaller-than-mobile-device-large">
-            <a href="/">0a.io</a>$if(isPReview)$<a href="/pretentious-reviews.html">: Pretentious Reviews</a>$endif$
+            <a href="/">archy.sh</a>$if(isPReview)$<a href="/pretentious-reviews.html">: Pretentious Reviews</a>$endif$
         </div>
       </h1>
 
       <div class="zeroDegreeNameAndDescription hide-if-smaller-than-mobile-device-large-but-flex" style="margin-left:20px">
       <h2 class="zeroDegreeName">
-        <a href="/">0a.io</a>$if(isPReview)$<a href="/pretentious-reviews.html">: Pretentious Reviews</a>$endif$$if(isMusicForWork)$<a href="/music-for-work.html">: Music for Work</a>$endif$$if(isArtworkInfo)$<a href="/artwork-info.html">: Artwork Info</a>$endif$<br />
-        <!-- <a target="_blank" href="https://arxiv.org/search/?query=Wilhes%2C+Archy&searchtype=author&order=-announced_date_first&size=50"><i class="social-icon ion-ios-paper"></i></a> -->
+        <a href="/">吖奇说 ARCHY SHUō</a><br />
 
-        <a target="_blank" href="https://archy.sh"><i class="social-icon ion-erlenmeyer-flask"></i></a>
-        <a target="_blank" href="https://castella.art"><i class="social-icon ion-erlenmeyer-flask"></i></a>
-        <a href="/about.html"><small style="font-size: 50%; margin-left:5px;top:-1px;position:relative">ABOUT</small></a>
+        <a href="/about.html"><small style="font-size: 50%; top:-1px;position:relative">关于 ABOUT</small></a>
+
+        <a id="weixin" target="_blank" href=""><i class="fa fa-weixin" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://weibo.com/archyshuo"><i class="fa fa-weibo" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://facebook.com/archyshuo"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCTZABR8oAe6Yy8gJK-93lcQ"><i class="fa fa-youtube" aria-hidden="true"></i></a>
       </h2>
-      <div class="zeroDegreeDescription"> <br/> </div>
+
+
+      <div class="zeroDegreeDescription"> <div class="conceptDesu">CONCEPTS</div>
+      当 代 艺 术 哲 学 科 学 科 技「坑 石」聚 集 地<br/> 也 是 一 个 ＡＩ 工 具 开 发 室</div>
       </div>
     </div>
     <h2 class="stayCool thickRaleway hide-if-smaller-than-mobile-device-large">
 
     </h2>
     <h3 class="stayCool thickRaleway show-iff-mobile-device-large">
-      <a href="/about.html">About</a>
+      <a href="/about.html">关于 About</a>
   </h3>
   <h2 class="stayCool thickRaleway show-if-smaller-than-mobile-device-medium">
-    <a href="/about-0a.html">About</a>
+    <a href="/about.html">关于 About</a>
   </h2>
     </div>
   </div>
@@ -158,11 +164,13 @@ $endif$
 </div>
     <div class="zeroDegreeNameAndDescription hide-if-smaller-than-mobile-device-regular-but-flex" style="margin-left:20px">
     <h3 class="zeroDegreeName" style="color:#fff">
-      0a.io: handcrafted by <a href="/about.html">Archy</a> <br />
-          <small><a href="https://github.com/archywillhe/0a.io">vi3w_s0urce <i class="ion-beer"></i></a></small>
+      archy.sh is handcrafted by <a href="/about.html">Archy</a> <br />
+          in Haskell with love ♥ <small><a href="https://github.com/archywillhe/archy.sh">vi3w_s0urce </a></small>
   </h3>
     <div class="zeroDegreeDescription">
+        archy.sh是阿奇手工编织的哦，用了Haskell静态网站生成器Hakyll的说
           <br>
+          ♥♥♥♥♥ 来看我的代码吧～ <a href="https://github.com/archywillhe/archy.sh">github 地址: archywillhe/archy.sh <i class="ion-beer"></i></a></small>
           <br>
 
     </div>

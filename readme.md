@@ -13,5 +13,5 @@ $ stack exec site build
 ## Learn more もっと
 
 Doc (官方文檔): https://jaspervdj.be/hakyll/
-# 0a.io-hakyll-boilerplate
-# 0a.io-hakyll-boilerplate
+# archy.sh-hakyll-boilerplate
+# archy.sh-hakyll-boilerplate

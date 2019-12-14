@@ -352,7 +352,7 @@ h2{
     .zeroDegreeLogo {
 
         position: relative;
-        background-color: #fff;
+        background-color: #0C3EFF;
         text-align: right;
 
         width: 150px;
@@ -389,8 +389,23 @@ h2{
             color:#fff;
             font-weight: 800;
         }
+        .fa{
+          font-size: 15px;
+          position: relative;
+          top:-1px;
+          margin-left: 5px;
+        }
+        .conceptDesu{
+          font-weight: 800;
+          position:absolute;
+          top:8px;
+          left:158px;
+          font-size: 0.75em;
+          font-family: 'Roboto',sans-serif;
+        }
 
         .zeroDegreeDescription {
+          position: relative;
             background-color: rgba(0,0,0,0.72);
             color: #fff;
             padding: 19px 20px;
